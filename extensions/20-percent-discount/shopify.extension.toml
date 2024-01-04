@@ -2,8 +2,8 @@ api_version = "2023-10"
 
 [[extensions]]
 handle = "20percentdiscount"
-name = "20percentdiscount"
-description = "t:description"
+name = "20% discount"
+description = "20% discount with saleproduct tag"
 type = "function"
 
   [[extensions.targeting]]

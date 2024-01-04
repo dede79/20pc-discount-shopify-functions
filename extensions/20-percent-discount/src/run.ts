@@ -11,6 +11,8 @@ const EMPTY_DISCOUNT: FunctionRunResult = {
 
 
 export function run(input: RunInput): FunctionRunResult {
+
+
   const targets: Target[] = input.cart.lines.filter(line => {
     if(line.merchandise.__typename === "ProductVariant"){
       const has20PercentOff = line.merchandise.product.hasAnyTag
@@ -31,7 +33,7 @@ export function run(input: RunInput): FunctionRunResult {
         targets: targets,
         value: {
           percentage: {
-            value: 20,
+            value: 20.0,
           }
         },
         message: "20% discount applied"
