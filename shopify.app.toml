@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 name = "Jones-checkout 20pc discount"
-client_id = "615dfcaa248a4a595805fa113a607215"
+client_id = "[client_id]"
 application_url = "https://shopify.dev/apps/default-app-home"
 embedded = true
 
